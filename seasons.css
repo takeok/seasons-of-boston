@@ -1,0 +1,71 @@
+/*making the text work?*/
+font family: 'Quicksand', sans-serif;
+font family: 'Lato', sans-serfif;
+
+/*adding transition effects to background images*/
+html{
+/*background image fixed, centered, full page*/
+	background-image: url("") no-repeat center center fixed;
+	background-size: cover;
+
+/*fading effect*/
+	transition-property: background;
+	transition-duration: 1s;
+	transition-timing-function: ease-in;
+	transition-delay: 100ms;
+}
+
+/*boston map*/
+
+#boston{
+	background-image: : url("https://s3-us-west-2.amazonaws.com/takeok.seasons/Boston.png") no-repeat center center fixed
+	;
+	height: 600px;
+	width:100%;
+	margin:0;
+	padding:0;
+}
+
+body {
+	padding:0;
+	margin: 0;
+}
+
+/*sets padding for the content and aligns it on the right*/
+#content {
+	width: 20%;
+	margin-left: auto;
+	padding: 0 20px 60px 20px;
+	background-color: rgba(0, 0, 0, .8);
+}
+
+/*nav bar*/
+ul#nav 
+{
+	display: inline;
+	list-style-type: none;
+	width: 100%;
+	margin: auto;
+	font-size: 18px;
+	font-family: 'Quicksand';
+	text-decoration: none;
+	padding: 0px;
+	margin: 0px;
+}
+#nav li 
+{
+	float: left;
+	list-style-type: none;
+	width: calc(100%/4 - 20px);
+	padding: 5px;
+	text-align: center;
+	background-color: black;
+	border-top: solid 1px;
+	border-bottom: solid 1px;
+}
+#nav a
+{
+	padding: 0;
+	text-decoration: none;
+	color: white;
+}
